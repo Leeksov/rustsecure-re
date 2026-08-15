@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Alt-Svc: h3=":443"; ma=2592000
+Cache-Control: no-store
+Content-Length: 125824
+Content-Type: application/octet-stream
+Date: Sat, 15 Aug 2026 11:27:49 GMT
+Permissions-Policy: camera=(), microphone=(), geolocation=()
+Referrer-Policy: no-referrer
+Server: Kestrel
+Via: 1.1 Caddy
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Rs-Alg: AES-256-CBC+HMAC-SHA256
+X-Rs-Iv: Ha5GLZEeKaX0JukzH7aHxg
+X-Rs-Mac: 1wHQhFeHtXH340_Q8iq02AdH7du1hPFrEibkc3RfLnw
+X-Rs-Nonce: G9lgnjixb2TvBbFOIne_CQ
+X-Rs-Ts: 1786793269
+

@@ -1,0 +1,23 @@
+# RSLG2 Core logs - NOT YET DECRYPTED (0/10 OK)
+#
+# The core (RustSecure.Core.dll) uses a different crypto implementation than the loader.
+# Key string: "RseSec2026KeyForDebugLogsEncryption!" (core string [752280829])
+# The ciphertext lengths after removing ver(1)+salt(16)+iv(16)+hmac(32) are NOT
+# multiples of 16, indicating the core likely uses:
+#   - AES-GCM (BouncyCastle-based, referenced in core decompilation), OR
+#   - AES-CFB/CTR (stream mode), OR
+#   - A different framing (PBKDF2 with embedded salt, different overhead sizes)
+#
+# Further analysis of the core's BouncyCastle crypto code is needed.
+# Source: RustSecure.log
+
+[BAD_CT_LEN: 92 not mod 16]
+[BAD_CT_LEN: 312 not mod 16]
+[BAD_CT_LEN: 92 not mod 16]
+[BAD_CT_LEN: 312 not mod 16]
+[BAD_CT_LEN: 413 not mod 16]
+[BAD_CT_LEN: 428 not mod 16]
+[BAD_CT_LEN: 92 not mod 16]
+[BAD_CT_LEN: 312 not mod 16]
+[BAD_CT_LEN: 92 not mod 16]
+[BAD_CT_LEN: 312 not mod 16]

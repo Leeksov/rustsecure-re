@@ -33,3 +33,4 @@ re_analysis/RustSecure_patched.exe
 # Python
 __pycache__/
 *.pyc
+spam_5mb.bin

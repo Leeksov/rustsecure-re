@@ -1,6 +1,6 @@
 # RustSecure — Reverse Engineering
 
-Static reverse engineering of **RustSecure** — a server-side anti-cheat system for the game Rust.
+Static reverse engineering of **RustSecure** — a client-side anti-cheat agent for the game Rust.
 
 ## Architecture
 
@@ -17,10 +17,10 @@ RustSecure.exe (loader)
   │
   └── core_decrypted.dll (19 MB, managed .NET)
         └── RustSecure.Core — the actual "anti-cheat" engine
-            ├── 12 detection modules (see bypass/)
+            ├── 13 detection modules (see bypass/)
             ├── Direct NT syscalls (bypasses usermode hooks)
             ├── 25+ HWID identifiers
-            ├── WebSocket C2: wss://rustsecure.ru/ws
+            ├── WebSocket telemetry: wss://rustsecure.ru/ws
             ├── Screenshot capture + upload
             └── Embedded: BouncyCastle, Iced.Intel, SharpDX.Direct3D11
 ```
@@ -54,7 +54,7 @@ RustSecure.exe (loader)
 | 13 | DXGI Duplication | Desktop duplication API detection |
 | 14 | Screenshot Capture | Server-requested DXGI/WGC/GDI capture |
 | 15 | Window/Process Scan | EnumWindows for cheat tools (CE, x64dbg, IDA) |
-| 16 | WebSocket C2 | Threat reports, bans, screenshot requests |
+| 16 | WebSocket telemetry | Threat reports, bans, screenshot requests |
 
 See `bypass/` for detailed analysis and bypass methods for each module.
 

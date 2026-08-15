@@ -5,113 +5,113 @@
 
 ---
 
-## Инфраструктура
+## Infrastructure
 
-| Хост | Порты | Стек |
-|------|-------|------|
+| Host | Ports | Stack |
+|------|-------|-------|
 | `144.31.237.250` (rustsecure.ru) | **443** (HTTPS), **3389** (RDP, IP-filtered), **9000** (MinIO S3) | Kestrel (ASP.NET) + Caddy reverse proxy, React SPA (Vite), Let's Encrypt TLS 1.2/1.3 |
-| `2.26.50.179` (backend) | **80** (HTTP — полная панель без Caddy), **3389** (RDP, IP-filtered), **5000** (Kestrel, пустой), **5003** (Kestrel, manifest API) | Kestrel без reverse proxy |
+| `2.26.50.179` (backend) | **80** (HTTP — full admin panel without Caddy), **3389** (RDP, IP-filtered), **5000** (Kestrel, empty), **5003** (Kestrel, manifest API) | Kestrel without reverse proxy |
 
 ---
 
-## Критические находки
+## Critical Findings
 
-### 1. MinIO S3 хранилище открыто без TLS (порт 9000)
+### 1. MinIO S3 storage exposed without TLS (port 9000)
 
 ```
 http://144.31.237.250:9000/
 ```
 
-- Бакет `rustsecure` **существует** (AccessDenied на анонимный доступ)
-- **STS endpoint активен** — `AssumeRoleWithWebIdentity` раскрывает внутренний ARN:
+- Bucket `rustsecure` **exists** (AccessDenied on anonymous access)
+- **STS endpoint active** — `AssumeRoleWithWebIdentity` leaks internal ARN:
   ```
   arn:minio:iam:::role/dummy-internal
   ```
-- Health endpoint `/minio/health/live` доступен без аутентификации
-- Трафик по HTTP — S3-ключи перехватываются при MITM
-- CVE-2023-28432 (env var leak) — **пропатчен**, не уязвим
-- Дефолтные креды `minioadmin:minioadmin` — не работают
+- Health endpoint `/minio/health/live` accessible without authentication
+- Traffic over HTTP — S3 keys interceptable via MITM
+- CVE-2023-28432 (env var leak) — **patched**, not vulnerable
+- Default credentials `minioadmin:minioadmin` — not working
 
-### 2. Backend панель без TLS и без Caddy (порт 80)
+### 2. Backend admin panel without TLS or Caddy (port 80)
 
 ```
 http://2.26.50.179:80/
 ```
 
-- Отдаёт **полную админ-панель** (тот же React SPA что на rustsecure.ru)
-- **Без TLS** — credentials передаются открытым текстом
-- **Без Caddy** — нет rate limiting на login
-- Security headers ставит сам Kestrel (X-Frame-Options, X-Content-Type-Options есть)
-- На порту **5000** ещё один Kestrel-сервис (404 на всех путях — внутренний микросервис)
-- На порту **5003** — manifest API: `/api/manifest/checksum` без аутентификации
+- Serves the **full admin panel** (same React SPA as rustsecure.ru)
+- **No TLS** — credentials transmitted in plaintext
+- **No Caddy** — no rate limiting on login
+- Security headers set by Kestrel itself (X-Frame-Options, X-Content-Type-Options present)
+- Port **5000** runs another Kestrel service (404 on all paths — internal microservice)
+- Port **5003** — manifest API: `/api/manifest/checksum` without authentication
 
-### 3. Payload раздаётся без аутентификации
+### 3. Payloads served without authentication
 
 ```
 GET https://rustsecure.ru/api/loader/core → 200, application/octet-stream
 GET https://rustsecure.ru/api/loader/native → 200, application/octet-stream
 ```
 
-- Зашифрованные payload (AES-256-CBC + HMAC-SHA256) скачиваются **анонимно**
-- IV, nonce, timestamp, MAC — в заголовках `X-Rs-*`, обновляются при каждом запросе
-- Единственная защита — шифрование, ключ для которого выводится из `sharedSecret` в клиентском бинарнике
+- Encrypted payloads (AES-256-CBC + HMAC-SHA256) downloadable **anonymously**
+- IV, nonce, timestamp, MAC — in `X-Rs-*` headers, refreshed on every request
+- Only protection is encryption, with the key derived from `sharedSecret` embedded in the client binary
 
-### 4. Отсутствуют CSP и HSTS на основной панели
+### 4. Missing CSP and HSTS on main panel
 
 ```
 Content-Security-Policy: ✗ MISSING
 Strict-Transport-Security: ✗ MISSING
 ```
 
-- XSS в панели = полный захват сессии (нет CSP)
-- Возможен downgrade до HTTP (нет HSTS)
-- При этом на MinIO HSTS установлен
+- XSS in the panel = full session hijack (no CSP)
+- HTTP downgrade possible (no HSTS)
+- MinIO has HSTS enabled, but the main panel does not
 
 ---
 
-## Высокий уровень
+## High Severity
 
-### 5. Утечка структуры API через клиентский JS
+### 5. Full API structure leaked via client-side JS
 
-Из JS-бандлов (`/assets/index-D8zSoidR.js` + lazy-loaded чанки) извлечена полная карта API:
+Extracted from JS bundles (`/assets/index-D8zSoidR.js` + lazy-loaded chunks):
 
 **Auth:**
-- `POST /api/auth/login` — логин, возвращает `{accessToken, username, role, allowedServers}`
-- `GET /api/auth/me` — текущий пользователь
+- `POST /api/auth/login` — login, returns `{accessToken, username, role, allowedServers}`
+- `GET /api/auth/me` — current user
 
 **Admin:**
-- `GET /api/admin/servers` — список серверов
+- `GET /api/admin/servers` — server list
 
 **Players:**
-- `GET /api/players/active` — активные игроки
-- `POST /api/players/ban` / `POST /api/players/unban` — бан/разбан
-- `GET /api/players/details?serverId=X&steamId=Y` — детали игрока
-- `GET /api/players/linked-accounts` — привязанные аккаунты
-- `GET /api/players/local-accounts` — локальные аккаунты
-- `GET /api/players/screenshots/content` — содержимое скриншотов
-- `POST /api/players/screenshots/request` — запрос скриншота у клиента
-- `GET /api/players/database-snapshot` — дамп базы данных
-- `GET /api/players/detection-stats` — статистика детекций
-- `GET /api/players/online-series` — онлайн-графики
-- `GET /api/players/stats-summary` — сводка
-- `GET /api/players/audit-logs` — аудит
-- `GET /api/players/detections` — детекции
-- `GET /api/players/logs` — логи
+- `GET /api/players/active` — active players
+- `POST /api/players/ban` / `POST /api/players/unban` — ban/unban
+- `GET /api/players/details?serverId=X&steamId=Y` — player details
+- `GET /api/players/linked-accounts` — linked accounts
+- `GET /api/players/local-accounts` — local accounts
+- `GET /api/players/screenshots/content` — screenshot contents
+- `POST /api/players/screenshots/request` — request screenshot from client
+- `GET /api/players/database-snapshot` — database dump
+- `GET /api/players/detection-stats` — detection statistics
+- `GET /api/players/online-series` — online charts
+- `GET /api/players/stats-summary` — summary
+- `GET /api/players/audit-logs` — audit logs
+- `GET /api/players/detections` — detections
+- `GET /api/players/logs` — logs
 - `POST /api/players/assfuck` — ?
 
 **SignalR:**
 - `/anticheat` — WebSocket hub (real-time events: PlayerUpdated, DetectionAdded, BansChanged, ScreenshotAdded, AuditChanged, LogAdded)
 
-### 6. Утечка внутренней модели через ошибки валидации
+### 6. Internal model leaked via validation errors
 
-При отправке невалидного типа в JSON:
+Sending invalid JSON types:
 
 ```json
 POST /api/auth/login
 {"username": {"$gt": ""}, "password": {"$gt": ""}}
 ```
 
-Сервер возвращает:
+Server responds:
 
 ```json
 {
@@ -123,27 +123,27 @@ POST /api/auth/login
 }
 ```
 
-Раскрывает: модель `request` (wrapper DTO), JSON parser path, distributed traceId.
+Reveals: `request` model (wrapper DTO), JSON parser path, distributed traceId.
 
-### 7. Роль SuperAdmin в клиентском JS
+### 7. SuperAdmin role exposed in client-side JS
 
 ```javascript
 (r?.role) === "SuperAdmin"
 ```
 
-- Токен хранится в `localStorage["rs_token"]`
-- Bearer JWT аутентификация
-- Роль определяет доступ к admin-функциям
+- Token stored in `localStorage["rs_token"]`
+- Bearer JWT authentication
+- Role determines access to admin functions
 
 ---
 
-## Средний уровень
+## Medium Severity
 
-### 8. Слабый rate limiting
+### 8. Weak rate limiting
 
-Login блокируется (429) после **~10 попыток**. На бэкенде (`2.26.50.179:80`) rate limiting **отсутствует**.
+Login blocked (429) after **~10 attempts**. On the backend (`2.26.50.179:80`) rate limiting is **absent**.
 
-### 9. Server fingerprint
+### 9. Server fingerprinting
 
 ```
 Server: Kestrel
@@ -151,33 +151,33 @@ Via: 1.1 Caddy
 Alt-Svc: h3=":443"; ma=2592000
 ```
 
-### 10. RDP открыт, но IP-фильтрован
+### 10. RDP open but IP-filtered
 
-Оба сервера имеют порт 3389 открытым (TCP handshake проходит), но сбрасывают соединение до RDP-хендшейка. Вероятно, whitelist по IP. Проверка на BlueKeep (CVE-2019-0708) невозможна без доверенного IP.
+Both servers have port 3389 open (TCP handshake completes), but drop the connection before the RDP handshake. Likely IP whitelist. BlueKeep (CVE-2019-0708) testing not possible without a trusted IP.
 
 ---
 
-## Что НЕ уязвимо
+## Not Vulnerable
 
-- **JWT** — `alg:none` bypass не работает, секрет не в стандартных словарях
-- **SQL injection** — login обрабатывает `' OR 1=1--` без ошибок
-- **NoSQL injection** — `{"$gt":""}` вызывает ошибку валидации типа, не инъекцию
-- **XXE** — сервер принимает только `application/json`, XML отклоняется (415)
-- **SSTI** — `{{7*7}}` и `${7*7}` не интерпретируются
-- **Path traversal** — `../` нормализуется Caddy и Kestrel
+- **JWT** — `alg:none` bypass doesn't work, secret not in standard wordlists
+- **SQL injection** — login handles `' OR 1=1--` without errors
+- **NoSQL injection** — `{"$gt":""}` triggers type validation error, not injection
+- **XXE** — server only accepts `application/json`, XML rejected (415)
+- **SSTI** — `{{7*7}}` and `${7*7}` not interpreted
+- **Path traversal** — `../` normalized by Caddy and Kestrel
 - **Config disclosure** — `appsettings.json`, `.env`, `web.config` — 404
 - **Source maps** — `.js.map` / `.css.map` — 404
-- **CORS** — нет `Access-Control-Allow-Origin`, кросс-доменные запросы блокируются
-- **CVE-2023-28432** (MinIO env leak) — пропатчен
-- **Prototype pollution** — `__proto__` в JSON игнорируется
+- **CORS** — no `Access-Control-Allow-Origin`, cross-origin requests blocked
+- **CVE-2023-28432** (MinIO env leak) — patched
+- **Prototype pollution** — `__proto__` in JSON ignored
 
 ---
 
-## Рекомендации по дальнейшей эксплуатации
+## Further Exploitation Vectors
 
-1. **MinIO S3 brute** — подбор access key / secret key
-2. **Login brute через `2.26.50.179:80`** — без rate limiting
-3. **JWT brute** — hashcat / john с большим словарём
-4. **RDP brute с RU VPS** — `hydra -t 4 -l administrator -P rockyou.txt rdp://IP`
-5. **MITM на бэкенд** — перехват S3-ключей и JWT через HTTP трафик
-6. **Реверс sharedSecret из клиента** — расшифровка payload → реконструкция серверной логики
+1. **MinIO S3 brute** — access key / secret key brute-force
+2. **Login brute via `2.26.50.179:80`** — no rate limiting
+3. **JWT brute** — hashcat / john with large wordlist
+4. **RDP brute from RU VPS** — `hydra -t 4 -l administrator -P rockyou.txt rdp://IP`
+5. **MITM on backend** — intercept S3 keys and JWT over HTTP traffic
+6. **Reverse sharedSecret from client** — decrypt payload → reconstruct server logic

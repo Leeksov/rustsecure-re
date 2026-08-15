@@ -1,0 +1,365 @@
+[  0] RustSecureLoaderLogKey.2026.v1
+[  1] I
+[  2] BOOT
+[  3] S
+[  4] P
+[  5] progress=
+[  6] ;hide=
+[  7] 0
+[  8] 1
+[  9] ;stage=
+[ 10] null
+[ 11] V
+[ 12] =
+[ 13] E
+[ 14] EX:null
+[ 15] EX:
+[ 16] |
+[ 17] os=
+[ 18] ;clr=
+[ 19] ;x64os=
+[ 20] ;x64proc=
+[ 21] ;interactive=
+[ 22] ;cwd=
+[ 23] ;base=
+[ 24] .bytes=null
+[ 25] .bytes=
+[ 26] ;
+[ 27] .prefix=
+[ 28] .ascii=
+[ 29] .sha8=
+[ 30] O
+[ 31] |SID:
+[ 32] |PID:
+[ 33] |TID:
+[ 34] :
+[ 35] enc
+[ 36] mac
+[ 37] RSLD1:
+[ 38] x2
+[ 39] logs.log
+[ 40] 
+[ 41]  
+[ 42] 
+
+[ 43] ...
+[ 44] https://rustsecure.ru/api/loader/core
+[ 45] /api/loader/core
+[ 46] https://rustsecure.ru/api/loader/native
+[ 47] /api/loader/native
+[ 48] rs-loader-main
+[ 49] R260iT7ujsI58aTxAExVby6qea3L056h6SfnEr2BLKbmY2vlvm
+[ 50] https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/
+[ 51] RunWithProgress:start
+[ 52] args.length
+[ 53] SecurityProtocol=Tls12
+[ 54] ПОДКЛЮЧЕНИЕ К СЕРВЕРУ
+[ 55] Downloading core payload
+[ 56] corePayload.bytes
+[ 57] corePayload
+[ 58] core
+[ 59] Core payload is not a valid PE
+[ 60] Downloading native payload
+[ 61] nativePayload.bytes
+[ 62] nativePayload
+[ 63] native
+[ 64] Native payload is not a valid PE
+[ 65] Closing existing RustClient processes
+[ 66] closeExistingRustClientsHard
+[ 67] Starting RustClient process
+[ 68] target.pid
+[ 69] target.hasExited
+[ 70] RustClient start failed or exited early
+[ 71] Starting native bridge injection
+[ 72] BridgeInjector failed
+[ 73] Injection successful
+[ 74] Network/DNS failure while downloading payload
+[ 75] Network timeout while downloading payload
+[ 76] payload
+[ 77] IsLikelyDll:
+[ 78] : payload is null or too small
+[ 79] .invalidSmall
+[ 80] : missing MZ signature
+[ 81] .missingMz
+[ 82] .peOffset
+[ 83] : invalid PE offset
+[ 84] : PE signature mismatch
+[ 85] .peMismatch
+[ 86] .pe
+[ 87] machine=0x
+[ 88] X4
+[ 89] ;sections=
+[ 90] ;characteristics=0x
+[ 91] Finish code=
+[ 92] Program.Main:start
+[ 93] Exception handlers registered
+[ 94] RustSecure
+[ 95] Mutex already acquired
+[ 96] Mutex acquired
+[ 97] cli.args.length
+[ 98] AntiDebug.PerformChecks failed
+[ 99] AntiDebug.PerformChecks ok
+[100] AntiVM.CheckIsVirtualMachine failed
+[101] AntiVM.CheckIsVirtualMachine ok
+[102] Application.EnableVisualStyles:start
+[103] Application visual settings ok
+[104] VC runtime check:start
+[105] Required VC runtime is missing
+[106] У вас не установлены нужные пакеты для работы античита, хотите установить?
+После нажатия - Да, вас перенесет на сайт загрузки.
+Скачайте, распакуйте все файлы в отдельную папку и запустите install_all.bat.
+Дождитесь окончания установки, перезапустите компьютер и запустите RustSecure.exe
+[107] Opening VC runtime download page
+[108] VC runtime check passed
+[109] Privacy consent dialog required
+[110] PrivacyConsentForm:create
+[111] PrivacyConsentForm:show
+[112] privacy.dialogResult
+[113] Privacy consent rejected
+[114] Privacy consent stored
+[115] Privacy consent already accepted
+[116] LoaderSplashForm:create
+[117] Loader splash form started
+[118] Application.Run:start
+[119] Application.Run:returned
+[120] loader.exitCode
+[121] ""
+[122] \
+[123] \\
+[124] "
+[125] \"
+[126] UNHANDLED_NON_EXCEPTION
+[127] THREAD_EXCEPTION_NULL
+[128] TASK_EXCEPTION_NULL
+[129] AntiDebug.PerformChecks:start
+[130] AntiDebug.CheckRemoteDebugger triggered
+[131] AntiDebug.CheckDebuggerManagedPresent triggered
+[132] AntiDebug.CheckDebugPort triggered
+[133] AntiDebug.CheckDebuggerUnmanagedPresent triggered
+[134] AntiDebug.CheckKernelDebugInformation triggered
+[135] AntiDebug.PerformChecks:ok
+[136] CheckRemoteDebugger
+[137] api=
+[138] ;present=
+[139] CheckDebugPort
+[140] debugPort=0x
+[141] X
+[142] CheckDebugPort.status
+[143] HideOsThreads.count
+[144] AntiVM.CheckIsVirtualMachine:start
+[145] AntiVM.IsSandbox triggered
+[146] AntiVM.isServerOs
+[147] AntiVM.wmiCacheMemoryVm
+[148] AntiVM.isVM_by_wim_temper triggered
+[149] AntiVM.CheckIsVirtualMachine:ok
+[150] cmdvrt32.dll
+[151] SxIn.dll
+[152] SbieDll.dll
+[153] AntiVM.sandboxModules
+[154] cmdvrt32/SxIn/SbieDll present
+[155] \\{0}\root\CIMV2
+[156] SELECT * FROM Win32_OperatingSystem
+[157] ProductType
+[158] AntiVM.productType
+[159] AntiVM.IsServerOS WMI failed
+[160] Select * from Win32_CacheMemory
+[161] AntiVM.cacheMemory.count
+[162] CloseExistingRustClientsHard:start timeoutMs=
+[163] RustClient
+[164] initial.rustClient.count
+[165] kill.pid
+[166] retry.kill.pid
+[167] remaining.rustClient.count
+[168] StartRustClient:start wd=
+[169] RustClient.exe
+[170] Process.Start returned null
+[171] started.pid
+[172] WaitForInputIdle returned false
+[173] started.hasExited
+[174] VcRuntimeChecker:start
+[175] vcRuntime.installed
+[176] x64=
+[177] ;x86=
+[178] SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\x64
+[179] vcRuntime.keyMissing
+[180] Installed
+[181] Version
+[182] vcRuntime.registry
+[183] view=
+[184] ;installed=
+[185] ;version=
+[186] robotocondensed-regular.ttf
+[187] robotocondensed-bold.ttf
+[188] RUSTSECURE
+[189] Политика конфиденциальности
+[190] x
+[191] Перед запуском RustSecure подтвердите согласие с условиями обработки данных.
+
+Мы можем обрабатывать:
+- SteamID и идентификатор игрового профиля;
+- технические параметры клиента (версия, окружение, статус защитных модулей);
+- события античита и диагностические журналы безопасности;
+- служебные данные о сессии (сервер, время активности, сетевые метаданные).
+
+Цели обработки:
+- предотвращение читов и защита серверной инфраструктуры;
+- анализ нарушений и проверка инцидентов;
+- обеспечение стабильной работы и технической поддержки RustSecure.
+
+Данные используются только в рамках задач безопасности платформы.
+Нажимая "СОГЛАСИТЬСЯ", вы подтверждаете согласие на указанную обработку.
+[192] Telegram канал поддержки:
+[193] https://t.me/rustsecure
+[194] ОТКАЗАТЬСЯ
+[195] СОГЛАСИТЬСЯ
+[196] Segoe UI
+[197] $this.Icon
+[198] PrivacyConsentForm
+[199] PrivacyConsentStore.HasAccepted:start
+[200] Software\RustSecure
+[201] PrivacyPolicyAccepted
+[202] privacy.accepted
+[203] PrivacyConsentStore.MarkAccepted:start
+[204] PrivacyConsentStore.MarkAccepted:ok
+[205] DownloadAndDecryptPayload:start path=
+[206] GET
+[207] Signature prepared
+[208] application/octet-stream
+[209] RustSecure.Loader
+[210] X-RS-Loader-Id
+[211] X-RS-Ts
+[212] X-RS-Nonce
+[213] X-RS-Signature
+[214] Request headers attached timeoutMs=
+[215] ;rwTimeoutMs=
+[216] GetResponse:start path=
+[217] http.status
+[218] http.meta
+[219] contentType=
+[220] ;contentLength=
+[221] ;server=
+[222] Server
+[223] X-RS-Iv
+[224] X-RS-Mac
+[225] securityHeaders
+[226] ivLen=
+[227] ;macLen=
+[228] ;tsLen=
+[229] ;nonceLen=
+[230] ;tsMatch=
+[231] ;nonceMatch=
+[232] Response security headers invalid. hasIv=
+[233] ;hasMac=
+[234] Response stream is null
+[235] Cipher payload is empty
+[236] cipher.bytes
+[237] cipher
+[238] DecryptPayload returned empty
+[239] plain.bytes
+[240] plain
+[241] webException.status
+[242] endpoint
+[243] scheme=
+[244] ;host=
+[245] ;port=
+[246] ;path=
+[247] dns
+[248] count=
+[249] ;ipv4=
+[250] ;ipv6=
+[251] WebException has no HTTP response
+[252] http.error
+[253] status=
+[254] ;description=
+[255] ;contentType=
+[256] httpErrorBody
+[257] DecryptPayload invalid input cipherLen=
+[258] ;ivLen=
+[259] enc|
+[260] mac|
+[261] DecryptPayload MAC mismatch
+[262] decrypt.result.bytes
+[263] ==
+[264] LoaderSplashForm.ctor:start
+[265] runAction
+[266] LoaderSplashForm.ctor:ready
+[267] LoadBackground:start
+[268] RustSecure.Injector.Resources.SplashBackground
+[269] background.loaded
+[270] resources.count
+[271] Background resource missing: 
+[272] Background stream null: 
+[273] background.stream.length
+[274] LoaderSplashForm.StartWork
+[275] %
+[276] LoadEmbeddedFont:start 
+[277] Font resource missing: 
+[278] Font stream null: 
+[279] font.stream.length
+[280] font.gdi
+[281] handle=
+[282] ;fontsAdded=
+[283] LoaderSplashForm.HandleCreated
+[284] LoaderSplashForm.OnLoad
+[285] LoaderSplashForm.visible
+[286] LoaderSplashForm.Shown
+[287] LoaderSplashForm.FormClosed
+[288] LoaderSplashForm.Hide requested
+[289] Loader worker started
+[290] loader.result
+[291] ОШИБКА
+[292] LoaderSplashForm.ExitCode
+[293] .dll
+[294] ManualMap DllMain attach begin
+[295] ManualMap DllMain wait failed/timeout wait=0x
+[296] ManualMap.DllMain.exit
+[297] 0x
+[298] ManualMap DllMain GetExitCodeThread failed, win32=
+[299] ManualMap DllMain attach done
+[300] tls callback
+[301] ntdll.dll
+[302] RtlAddFunctionTable
+[303] ManualMap.import.apiset
+[304] =>
+[305] ManualMap.import.load
+[306] mscoree.dll
+[307] coreclr.dll
+[308] clr.dll
+[309] ManualMap import module unresolved: 
+[310] ManualMap.import.module
+[311] =0x
+[312] ManualMap local LoadLibrary failed: 
+[313] ; win32=
+[314] #
+[315] ManualMap import function unresolved: 
+[316] !
+[317] api-ms-win-crt-
+[318] ucrtbase.dll
+[319] api-ms-win-core-
+[320] ext-ms-win-
+[321] kernelbase.dll
+[322] kernel32.dll
+[323] LoadLibraryW
+[324]  
+[325] Invalid process/native payload
+[326] Invalid core payload
+[327] ManualMap base=0x
+[328] ManualMap returned zero
+[329] Sleep before InvokeRemoteInitFromBytes finished
+[330] InvokeRemoteInitFromBytes failed
+[331] InitFromBytes
+[332] _InitFromBytes
+[333] InitFromBytes@8
+[334] Resolved export 
+[335]  at 0x
+[336] Failed to resolve InitFromBytes export
+[337] OpenProcess failed, win32=
+[338] VirtualAllocEx payload failed, win32=
+[339] WriteProcessMemory payload failed, win32=
+[340] VirtualAllocEx stub failed, win32=
+[341] WriteProcessMemory stub failed, win32=
+[342] CreateRemoteThread failed, win32=
+[343] GetExitCodeThread failed, win32=
+[344] Remote thread exit code=0x
+[345] WaitForSingleObject failed, win32=
+[346] WaitForSingleObject timeout

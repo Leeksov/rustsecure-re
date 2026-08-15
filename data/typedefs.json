@@ -1,0 +1,3868 @@
+{
+ "typedefs": [
+  {
+   "Flags": 0,
+   "TypeName": "<Module>",
+   "TypeNamespace": "",
+   "Extends": 0,
+   "FieldList": 1,
+   "MethodList": 1
+  },
+  {
+   "Flags": 384,
+   "TypeName": "ExtrapolateFrameDataAdapter",
+   "TypeNamespace": "aubDoAbSXgGwxT.IIDIEnumSTOREDEPLOYMENTMETADATAPROPERTYPropertiesToTest",
+   "Extends": 57,
+   "FieldList": 5,
+   "MethodList": 49
+  },
+  {
+   "Flags": 1048960,
+   "TypeName": "MeasureFrameLatency",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getUnrestrictedgetCompareInfo",
+   "Extends": 57,
+   "FieldList": 33,
+   "MethodList": 271
+  },
+  {
+   "Flags": 1048960,
+   "TypeName": "ProjectFramePerformance",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.DigitShapesManifestBuilder",
+   "Extends": 57,
+   "FieldList": 41,
+   "MethodList": 274
+  },
+  {
+   "Flags": 1048960,
+   "TypeName": "MeterFrameIntervalManager",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 57,
+   "FieldList": 51,
+   "MethodList": 357
+  },
+  {
+   "Flags": 1048835,
+   "TypeName": "<>c__DisplayClass1_0",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.getWasUsedAllowDashes",
+   "Extends": 57,
+   "FieldList": 59,
+   "MethodList": 451
+  },
+  {
+   "Flags": 1048576,
+   "TypeName": "InspectFrameBufferMonitor",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.setControlEvidencegetOffsetHigh",
+   "Extends": 57,
+   "FieldList": 62,
+   "MethodList": 459
+  },
+  {
+   "Flags": 1048576,
+   "TypeName": "VerifyFrameSync",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.getLowestBreakIterationDenyOnlyPrimaryGroupSid",
+   "Extends": 57,
+   "FieldList": 73,
+   "MethodList": 557
+  },
+  {
+   "Flags": 1048832,
+   "TypeName": "AssessFrameQuality",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.setStripAfterObfuscationgetTypes",
+   "Extends": 57,
+   "FieldList": 78,
+   "MethodList": 619
+  },
+  {
+   "Flags": 1048960,
+   "TypeName": "AccumulateFrameStatsRegulator",
+   "TypeNamespace": "aubDoAbSXgGwxT.IIDIEnumSTOREDEPLOYMENTMETADATAPROPERTYPropertiesToTest",
+   "Extends": 57,
+   "FieldList": 82,
+   "MethodList": 677
+  },
+  {
+   "Flags": 1048832,
+   "TypeName": "PrivacyConsentForm",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getUnrestrictedgetCompareInfo.InterlockedGetTypeFromCLSID",
+   "Extends": 273,
+   "FieldList": 86,
+   "MethodList": 714
+  },
+  {
+   "Flags": 1057027,
+   "TypeName": "<>c",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 57,
+   "FieldList": 102,
+   "MethodList": 735
+  },
+  {
+   "Flags": 1048960,
+   "TypeName": "GovernFramePacing",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getUnrestrictedgetCompareInfo.InterlockedGetTypeFromCLSID",
+   "Extends": 57,
+   "FieldList": 104,
+   "MethodList": 738
+  },
+  {
+   "Flags": 1048832,
+   "TypeName": "SynchronizeFrameUpdateValidator",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.MyVideosDNN",
+   "Extends": 57,
+   "FieldList": 108,
+   "MethodList": 760
+  },
+  {
+   "Flags": 1048832,
+   "TypeName": "DetermineFrameRate",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.setControlEvidencegetOffsetHigh",
+   "Extends": 57,
+   "FieldList": 123,
+   "MethodList": 987
+  },
+  {
+   "Flags": 1048832,
+   "TypeName": "LoaderSplashForm",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.DeclareLocalEntryPointIdentity",
+   "Extends": 273,
+   "FieldList": 130,
+   "MethodList": 1001
+  },
+  {
+   "Flags": 1048835,
+   "TypeName": "<>c__DisplayClass25_0",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.UseGenitiveMonthTopLevelAssemblyTypeResolver",
+   "Extends": 57,
+   "FieldList": 176,
+   "MethodList": 1309
+  },
+  {
+   "Flags": 1048835,
+   "TypeName": "<>c__DisplayClass25_1",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.UseGenitiveMonthTopLevelAssemblyTypeResolver",
+   "Extends": 57,
+   "FieldList": 181,
+   "MethodList": 1351
+  },
+  {
+   "Flags": 1048835,
+   "TypeName": "<>c__DisplayClass25_2",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.VoidTaskResultImport",
+   "Extends": 57,
+   "FieldList": 185,
+   "MethodList": 1376
+  },
+  {
+   "Flags": 1048576,
+   "TypeName": "ThrottleFrameRate",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.DigitShapesManifestBuilder",
+   "Extends": 57,
+   "FieldList": 189,
+   "MethodList": 1389
+  },
+  {
+   "Flags": 1048576,
+   "TypeName": "MeterFrameInterval",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.DigitShapesManifestBuilder",
+   "Extends": 57,
+   "FieldList": 214,
+   "MethodList": 1651
+  },
+  {
+   "Flags": 1048842,
+   "TypeName": "DebugEvent",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getUnrestrictedgetCompareInfo.InterlockedGetTypeFromCLSID",
+   "Extends": 785,
+   "FieldList": 215,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 261,
+   "TypeName": "DebugEventType",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.SecurityRuleSetResolvedAssemblyFiles",
+   "Extends": 789,
+   "FieldList": 219,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 258,
+   "TypeName": "SystemInformationClass",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.RemoveOnLogSwitchLevelXMLUtil",
+   "Extends": 789,
+   "FieldList": 229,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 258,
+   "TypeName": "DebugObjectInformationClass",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.MyVideosDNN",
+   "Extends": 789,
+   "FieldList": 388,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048842,
+   "TypeName": "SystemKernelDebuggerInformation",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.DSObjectU",
+   "Extends": 785,
+   "FieldList": 391,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 258,
+   "TypeName": "ProcessInfoClass",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.setControlEvidencegetOffsetHigh",
+   "Extends": 789,
+   "FieldList": 393,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 258,
+   "TypeName": "NtStatus",
+   "TypeNamespace": "aubDoAbSXgGwxT.IIDIEnumSTOREDEPLOYMENTMETADATAPROPERTYPropertiesToTest",
+   "Extends": 789,
+   "FieldList": 457,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 258,
+   "TypeName": "ThreadAccess",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.MyVideosDNN",
+   "Extends": 789,
+   "FieldList": 788,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 258,
+   "TypeName": "ThreadInformationClass",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 789,
+   "FieldList": 798,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "MEMORY_BASIC_INFORMATION",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 785,
+   "FieldList": 838,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "MODULEINFO",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.DeclareLocalEntryPointIdentity",
+   "Extends": 785,
+   "FieldList": 845,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1114381,
+   "TypeName": "MODULEENTRY32",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 785,
+   "FieldList": 848,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "IMAGE_DOS_HEADER",
+   "TypeNamespace": "aubDoAbSXgGwxT.getDefaultThreadCurrentCulturesetDayNames",
+   "Extends": 785,
+   "FieldList": 858,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "IMAGE_FILE_HEADER",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.RemoveOnLogSwitchLevelXMLUtil",
+   "Extends": 785,
+   "FieldList": 877,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "IMAGE_OPTIONAL_HEADER64",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.getWasUsedAllowDashes",
+   "Extends": 785,
+   "FieldList": 884,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "IMAGE_NT_HEADERS64",
+   "TypeNamespace": "aubDoAbSXgGwxT.getDefaultThreadCurrentCulturesetDayNames",
+   "Extends": 785,
+   "FieldList": 914,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "IMAGE_DATA_DIRECTORY",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.NumberNegativePatternNVTraceI",
+   "Extends": 785,
+   "FieldList": 917,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "IMAGE_SECTION_HEADER",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getUnrestrictedgetCompareInfo.InterlockedGetTypeFromCLSID",
+   "Extends": 785,
+   "FieldList": 919,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "IMAGE_IMPORT_DESCRIPTOR",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.setStripAfterObfuscationgetTypes",
+   "Extends": 785,
+   "FieldList": 929,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "IMAGE_THUNK_DATA64",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.RemoveOnLogSwitchLevelXMLUtil",
+   "Extends": 785,
+   "FieldList": 934,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "IMAGE_IMPORT_BY_NAME",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.RemoveOnLogSwitchLevelXMLUtil",
+   "Extends": 785,
+   "FieldList": 935,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "IMAGE_BASE_RELOCATION",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getUnrestrictedgetCompareInfo.InterlockedGetTypeFromCLSID",
+   "Extends": 785,
+   "FieldList": 937,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "IMAGE_TLS_DIRECTORY64",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.getWasUsedAllowDashes",
+   "Extends": 785,
+   "FieldList": 939,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048845,
+   "TypeName": "IMAGE_EXPORT_DIRECTORY",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.UseGenitiveMonthTopLevelAssemblyTypeResolver",
+   "Extends": 785,
+   "FieldList": 945,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048577,
+   "TypeName": "CalculateFrameDeltaListener",
+   "TypeNamespace": "RegulateFrameIntervalFactory.TuneFrameLatencySerializer",
+   "Extends": 57,
+   "FieldList": 956,
+   "MethodList": 1655
+  },
+  {
+   "Flags": 1048832,
+   "TypeName": "ForecastFrameLoad",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.getLowestBreakIterationDenyOnlyPrimaryGroupSid",
+   "Extends": 57,
+   "FieldList": 1000,
+   "MethodList": 2113
+  },
+  {
+   "Flags": 1048961,
+   "TypeName": "AykNWbWxBoNpvcDU",
+   "TypeNamespace": "aubDoAbSXgGwxT",
+   "Extends": 57,
+   "FieldList": 1005,
+   "MethodList": 2204
+  },
+  {
+   "Flags": 1048576,
+   "TypeName": "FCRVSZCG8180",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.getWasUsedAllowDashes",
+   "Extends": 57,
+   "FieldList": 1014,
+   "MethodList": 2273
+  },
+  {
+   "Flags": 258,
+   "TypeName": "MWRIADEP3289",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.setStripAfterObfuscationgetTypes",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2277
+  },
+  {
+   "Flags": 258,
+   "TypeName": "OSOXOBEN5465",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.NumberNegativePatternNVTraceI",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2279
+  },
+  {
+   "Flags": 258,
+   "TypeName": "ZAEZGAXG4885",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.DeclareLocalEntryPointIdentity",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2281
+  },
+  {
+   "Flags": 258,
+   "TypeName": "GYBCKPUY6127",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2283
+  },
+  {
+   "Flags": 258,
+   "TypeName": "SSIUZZMM5102",
+   "TypeNamespace": "aubDoAbSXgGwxT.IIDIEnumSTOREDEPLOYMENTMETADATAPROPERTYPropertiesToTest",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2285
+  },
+  {
+   "Flags": 258,
+   "TypeName": "WXDWEVRU5959",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.DigitShapesManifestBuilder",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2287
+  },
+  {
+   "Flags": 258,
+   "TypeName": "RADNRVGG5077",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getUnrestrictedgetCompareInfo",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2289
+  },
+  {
+   "Flags": 258,
+   "TypeName": "MTDEMVPV5369",
+   "TypeNamespace": "aubDoAbSXgGwxT.getDefaultThreadCurrentCulturesetDayNames",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2291
+  },
+  {
+   "Flags": 258,
+   "TypeName": "WBXVJMKP2180",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.setControlEvidencegetOffsetHigh",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2293
+  },
+  {
+   "Flags": 258,
+   "TypeName": "EACEUSVY8009",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.UseGenitiveMonthTopLevelAssemblyTypeResolver",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2295
+  },
+  {
+   "Flags": 258,
+   "TypeName": "GTPRWSAV5974",
+   "TypeNamespace": "aubDoAbSXgGwxT.getDefaultThreadCurrentCulturesetDayNames",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2297
+  },
+  {
+   "Flags": 258,
+   "TypeName": "VOIDYYMG9911",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.MyVideosDNN",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2299
+  },
+  {
+   "Flags": 258,
+   "TypeName": "KSQKKAHZ3245",
+   "TypeNamespace": "aubDoAbSXgGwxT.getDefaultThreadCurrentCulturesetDayNames",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2301
+  },
+  {
+   "Flags": 258,
+   "TypeName": "BSNJPRGN9564",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.VoidTaskResultImport",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2303
+  },
+  {
+   "Flags": 258,
+   "TypeName": "WGJCWMHQ9287",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getUnrestrictedgetCompareInfo",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2305
+  },
+  {
+   "Flags": 258,
+   "TypeName": "BGCNSERC2266",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2307
+  },
+  {
+   "Flags": 258,
+   "TypeName": "YIPUNDRO1701",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.setStripAfterObfuscationgetTypes",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2309
+  },
+  {
+   "Flags": 258,
+   "TypeName": "WPBZZQLE7912",
+   "TypeNamespace": "aubDoAbSXgGwxT.IIDIEnumSTOREDEPLOYMENTMETADATAPROPERTYPropertiesToTest",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2311
+  },
+  {
+   "Flags": 258,
+   "TypeName": "BHXJQUZP3068",
+   "TypeNamespace": "aubDoAbSXgGwxT.IIDIEnumSTOREDEPLOYMENTMETADATAPROPERTYPropertiesToTest",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2313
+  },
+  {
+   "Flags": 258,
+   "TypeName": "DSQGGGGH2566",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2315
+  },
+  {
+   "Flags": 258,
+   "TypeName": "PWRRGDSG9092",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2317
+  },
+  {
+   "Flags": 258,
+   "TypeName": "FRDEFRBG2100",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.setControlEvidencegetOffsetHigh",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2319
+  },
+  {
+   "Flags": 258,
+   "TypeName": "FVFPRVEV1573",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.SecurityRuleSetResolvedAssemblyFiles",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2321
+  },
+  {
+   "Flags": 258,
+   "TypeName": "SQTXCVJM2656",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.DSObjectU",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2323
+  },
+  {
+   "Flags": 258,
+   "TypeName": "SFXYORSD9201",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.RemoveOnLogSwitchLevelXMLUtil",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2325
+  },
+  {
+   "Flags": 258,
+   "TypeName": "MIZHEKMA9534",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.UseGenitiveMonthTopLevelAssemblyTypeResolver",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2327
+  },
+  {
+   "Flags": 258,
+   "TypeName": "ZCFMEOHC1982",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2329
+  },
+  {
+   "Flags": 258,
+   "TypeName": "OHKDIFFD4770",
+   "TypeNamespace": "aubDoAbSXgGwxT.getDefaultThreadCurrentCulturesetDayNames",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2331
+  },
+  {
+   "Flags": 258,
+   "TypeName": "GFYIVFFB3231",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getUnrestrictedgetCompareInfo.InterlockedGetTypeFromCLSID",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2333
+  },
+  {
+   "Flags": 258,
+   "TypeName": "VXZADYZB6419",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2335
+  },
+  {
+   "Flags": 258,
+   "TypeName": "FFGOWXTF7839",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.DeclareLocalEntryPointIdentity",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2337
+  },
+  {
+   "Flags": 258,
+   "TypeName": "QLZHKDOS1619",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.setStripAfterObfuscationgetTypes",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2339
+  },
+  {
+   "Flags": 258,
+   "TypeName": "FXVXBZDZ5879",
+   "TypeNamespace": "aubDoAbSXgGwxT.getDefaultThreadCurrentCulturesetDayNames",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2341
+  },
+  {
+   "Flags": 258,
+   "TypeName": "PCYPDVZQ3090",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.getWasUsedAllowDashes",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2343
+  },
+  {
+   "Flags": 258,
+   "TypeName": "CVNKFNKY2237",
+   "TypeNamespace": "aubDoAbSXgGwxT.getDefaultThreadCurrentCulturesetDayNames",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2345
+  },
+  {
+   "Flags": 258,
+   "TypeName": "EQOUCQZM8687",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.UseGenitiveMonthTopLevelAssemblyTypeResolver",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2347
+  },
+  {
+   "Flags": 258,
+   "TypeName": "ENGDRGEL7636",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.SecurityRuleSetResolvedAssemblyFiles",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2349
+  },
+  {
+   "Flags": 258,
+   "TypeName": "SFSZXINQ6152",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2351
+  },
+  {
+   "Flags": 258,
+   "TypeName": "AZQRFUZX3658",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.UseGenitiveMonthTopLevelAssemblyTypeResolver",
+   "Extends": 825,
+   "FieldList": 1054,
+   "MethodList": 2353
+  },
+  {
+   "Flags": 1048960,
+   "TypeName": "DetectFrameDropsProxy",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.SecurityRuleSetResolvedAssemblyFiles",
+   "Extends": 57,
+   "FieldList": 1054,
+   "MethodList": 2355
+  },
+  {
+   "Flags": 1048960,
+   "TypeName": "EvaluateFramePacing",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE.SecurityRuleSetResolvedAssemblyFiles",
+   "Extends": 57,
+   "FieldList": 1067,
+   "MethodList": 2381
+  },
+  {
+   "Flags": 1048960,
+   "TypeName": "CalculateFrameDelta",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 57,
+   "FieldList": 1081,
+   "MethodList": 2411
+  },
+  {
+   "Flags": 1048960,
+   "TypeName": "CheckFrameStability",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.setControlEvidencegetOffsetHigh",
+   "Extends": 57,
+   "FieldList": 1094,
+   "MethodList": 2435
+  },
+  {
+   "Flags": 1048960,
+   "TypeName": "InterpolateFrameValues",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getUnrestrictedgetCompareInfo",
+   "Extends": 57,
+   "FieldList": 1105,
+   "MethodList": 2453
+  },
+  {
+   "Flags": 1048960,
+   "TypeName": "TrackFrameMetrics",
+   "TypeNamespace": "InspectFrameBufferListener.NormalizeFrameRateSubscriber.getAceTypeVARFLAGFSOURCE",
+   "Extends": 57,
+   "FieldList": 1117,
+   "MethodList": 2477
+  },
+  {
+   "Flags": 1048960,
+   "TypeName": "ForecastFrameLoadInitializer",
+   "TypeNamespace": "aubDoAbSXgGwxT.getDefaultThreadCurrentCulturesetDayNames",
+   "Extends": 57,
+   "FieldList": 1132,
+   "MethodList": 2501
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getWriterSeqNumCancel",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1146,
+   "MethodList": 2529
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ToDateTimeConfigNodeSubType",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1147,
+   "MethodList": 2529
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SetBindOptionsTrimFreeSizeOK",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1148,
+   "MethodList": 2529
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SpacebarGetFile",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1149,
+   "MethodList": 2529
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getAssemblyEvidencegetCertFile",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1150,
+   "MethodList": 2529
+  },
+  {
+   "Flags": 256,
+   "TypeName": "TransformBlockgetManagedThreadId",
+   "TypeNamespace": "",
+   "Extends": 57,
+   "FieldList": 1151,
+   "MethodList": 2529
+  },
+  {
+   "Flags": 256,
+   "TypeName": "GetLastAccessTimemetwSessionId",
+   "TypeNamespace": "",
+   "Extends": 57,
+   "FieldList": 1151,
+   "MethodList": 2530
+  },
+  {
+   "Flags": 256,
+   "TypeName": "UpdateKwdTriggersMRMWrapperDictionary",
+   "TypeNamespace": "",
+   "Extends": 57,
+   "FieldList": 1151,
+   "MethodList": 2531
+  },
+  {
+   "Flags": 256,
+   "TypeName": "RelativePathToAF",
+   "TypeNamespace": "",
+   "Extends": 57,
+   "FieldList": 1151,
+   "MethodList": 2532
+  },
+  {
+   "Flags": 256,
+   "TypeName": "IsValidAttributeValueAtan",
+   "TypeNamespace": "",
+   "Extends": 57,
+   "FieldList": 1151,
+   "MethodList": 2533
+  },
+  {
+   "Flags": 256,
+   "TypeName": "WrappedExceptionStore",
+   "TypeNamespace": "",
+   "Extends": 57,
+   "FieldList": 1151,
+   "MethodList": 2534
+  },
+  {
+   "Flags": 256,
+   "TypeName": "ITupleInheritable",
+   "TypeNamespace": "",
+   "Extends": 57,
+   "FieldList": 1151,
+   "MethodList": 2535
+  },
+  {
+   "Flags": 272,
+   "TypeName": "setCancellationTokenSoapPositiveInteger",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1151,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "OriginPortWaitCallback",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1152,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "EndOfLineObjectReader",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1153,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CMSFILEWRITABLETYPEAPPLICATIONDATACompletion",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1154,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DefineMethodOverrideVARFLAGFREPLACEABLE",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1155,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ApplicationExceptionSubcategoryMembershipEntry",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1156,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IsolatedStorageSecurityOptionssetLastAccessTime",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1157,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetterWaitAny",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1158,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "FormatBasicgetAbbreviatedMonthGenitiveNames",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1159,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "PARAMDESCDebuggerVisualizerAttribute",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1160,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "enableWorkerTrackingSiteServerAuthority",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1161,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "NumberFormatInfoparamdesc",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1162,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DeleteKeysetIsMailNewsSave",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1163,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "LinkDemandResolvePolicyGroups",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1164,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "partitionerSourcegetIsPointer",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1165,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SetHostExecutionContextSerializable",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1166,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "NativeRegisterExternalException",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1167,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetUserStoreForSitegetCommandLine",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1168,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AsyncLocalValueChangedArgsSafeCertContextHandle",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1169,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "UseNonExportableKeyDefineLiteral",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1170,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "QueryGetEncodings",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1171,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IAssemblyReferenceEntrysetVariantType",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1172,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getSystemDirectoryBegin",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1173,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DISPPARAMSContextCallback",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1174,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getLeaseTimeDXDSN",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1175,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AllowDecimalPointNotify",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1176,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "StaticIndexRangePartitionerForArraySignedFile",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1177,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getResultAbbreviatedMonthGenitiveNames",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1178,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "BaseNameSetCreationTimeUtc",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1179,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "LegalBlockSizescreationOptionsForReplicas",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1180,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetUserStoreForSiteConsoleApplication",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1181,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "UCOMIConnectionPointSetFault",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1182,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CreateNodeCallbackConcurrentBagTryPeekSteals",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1183,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "FileFlagsSignatureID",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1184,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "BinaryLengthRemotingSurrogate",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1185,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "TimeZoneUsedAssemblyReferenceSection",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1186,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IteratorFullTrustZoneIntranet",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1187,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IsAbstractNativeRVA",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1188,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DaylightTimeStructObjectFlags",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1189,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getHashNamePInvokeAttributes",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1190,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SafeThreadHandleTimeZoneToken",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1191,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "MillisecondgetOpcode",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1192,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "LastWriteTimeUtcRuntimeClass",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1193,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CONSOLESCREENBUFFERINFOFusion",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1194,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IsExplicitlyDereferencedTaskWait",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1195,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "MetadataTokenTypegetIsSpecialName",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1196,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IsPreAllocatedDefaultSequentialScan",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1197,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getDefaultContextMarshalException",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1198,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getUserFormatBadDateTimeCalendar",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1199,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getMillisecondsEncrypt",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1200,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CMSASSEMBLYREFERENCEFLAGVISIBLEIdentities",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1201,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "TypeContainingContractsIsInvalidNumber",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1202,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "lastResourceSetRunSynchronously",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1203,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetInspectableCallback",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1204,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "FormattableStringsetCurrencyDecimalSeparator",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1205,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "NaNUnregisterTypeForComClients",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1206,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SystemAuditDivideByZeroException",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1207,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "EventListenerLogRemotingStage",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1208,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "MinSizeTYPEFLAGFDUAL",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1209,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getMaxDegreeOfParallelismRemoveSurrogate",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1210,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetMaxThreadsToken",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1211,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ParallelJoinCCMPWCDECL",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1212,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "OverlappedDescriptor",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1213,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "TokenBasedSetSerializationNullKey",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1214,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getMacCodePageExceptionInfo",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1215,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AssemblyReferenceFlagsRSACspObject",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1216,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "LUIDANDATTRIBUTESWillNotCorruptState",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1217,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CRMDictionaryIsPublic",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1218,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AreAccessRulesCanonicalInitobj",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1219,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SystemDefinedImplPosition",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1220,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "UnionTypesApplicationEvidence",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1221,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getFileDataPointer",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1222,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CompleteDeserializationCategoryMembershipDataEntryFieldId",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1223,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SafeCspHashHandlegetDoNotAddrOfCspParentWindowHandle",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1224,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "HeadersEndNameIdentifier",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1225,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AddTicksgetDeclaredMethods",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1226,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "PropertiesToSetGetInArgName",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1227,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ParameterInfoGetConnectionInterface",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1228,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getChangeAccessControlgetIsFlowSuppressed",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1229,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "setTargetMemberRef",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1230,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ApplicationTrustCollectionLastWriteTime",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1231,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getCurrentInfolastResourceSet",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1232,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SerializationEventsINVOKEPROPERTYPUT",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1233,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetExportedTypesSingleArray",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1234,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getInternalStoreGetRuntimeTypeHandleFromMetadataToken",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1235,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "NotgetThreadHandle",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1236,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "TargetInvocationExceptionGetGroup",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1237,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "INVOCATIONFLAGSISDELEGATECTORJAPANESELUNISOLAR",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1238,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "setAsBstrRanToCompletion",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1239,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DiscretionaryAclDefaultedCategoryMembershipEntryFieldId",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1240,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "BeginEndAwaitableAdapterGetAt",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1241,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AssemblyHashAlgorithmUpArrow",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1242,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getIsReadyToSerializedString",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1243,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SortSameProcess",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1244,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "InternalEncoderBestFitFallbackWindowTop",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1245,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getCommandLineISCIIEncoding",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1246,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getAccessMaskValueList",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1247,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DebuggerBrowsableAttributeFNonExtensible",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1248,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getDigitSubstitutiongetLCID",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1249,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "PrimitiveValueMetadataSectionResourceTypeManifestResourcesDependency",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1250,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AssignDelegateWriteObjectData",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1251,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AddNonscalarApplicationPathLock",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1252,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "StatusLevelSin",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1253,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AssemblyReferenceSectionISTOREENUMASSEMBLIESFLAGS",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1254,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "NVTraceIPermissionSetEntryFieldId",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1255,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "HashDefinitionUnspecifiedTypeSize",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1256,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IsValidTargetTypeIsSeparator",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1257,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getDynamicDirectoryAddHost",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1258,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SendManifestGetUpperBound",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1259,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "PredicategetResolvedAssemblyFiles",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1260,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "PtrToStringAnsiReadPermissions",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1261,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "XmlStringToSecurityObjectLight",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1262,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ASCIISparselyPopulatedArray",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1263,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ObjectAceTypegetVisualizerTypeName",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1264,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "HandleProcessCorruptedStateExceptionsAttributeGetAllFuncCustData",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1265,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "InvalidOperationEnumEndedTokenDefaultDacl",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1266,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IsSameGO",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1267,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SafeArraygetStreamingContext",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1268,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "WindowsRuntimeDesignerContextMaxGeneration",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1269,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetRuntimeMethodsNonCanonicalData",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1270,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getCursorLeftRemotingSurrogateSelector",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1271,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "oceTypeSpec",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1272,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getIsFamilyIsInterned",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1273,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getWindowTopCreateFiles",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1274,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AsTypeCallType",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1275,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "LoaderMaximumWindowHeight",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1276,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SymLanguageTypeGetColumnNumber",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1277,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SharedIntSelfSid",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1278,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ResourceManagerFoundResourceSetInCachegetDependentAssembly",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1279,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "NetCoreSite",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1280,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IIDIEnumSTORECATEGORYDefaultConstructorConstraint",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1281,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "HashPropertyPermitOnlySetInstance",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1282,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ParserGetUnderlyingObject",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1283,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CurrentIdObjectAceFlags",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1284,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "MissingMyReaderWriterLock",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1285,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "TKINDALIASgetContextProperties",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1286,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IVectorViewMemberName",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1287,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AllocateBufferFreeListEmptysetAccessMask",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1288,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CMSSECTIONIDASSEMBLYREFERENCESECTIONPARAMFLAGFHASDEFAULT",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1289,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "InitializegetAllLocalFiles",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1290,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "StoreSubcategoryEnumerationFormatBadDateTimeCalendar",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1291,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "NextOffsetLUNARETOKOR",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1292,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SoapPositiveIntegersetCurrencyGroupSizes",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1293,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GroupSidCreateActContextParametersSourceDefinitionAppid",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1294,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "RectStoreAndDispatch",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1295,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "StringTypeInfoRFCPattern",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1296,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AccountGuestSidSetCallContext",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1297,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "StoreOperationScavengeRunContinuationsAsynchronously",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1298,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "pAttributeVBidiCategory",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1299,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "RequiresStringComparisonFormIdna",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1300,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CharSetExceptionInfo",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1301,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AsyncCausalityOperationIsBitProcess",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1302,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ObjectWithMapNullable",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1303,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetAllParamCustDataFUNCFLAGFIMMEDIATEBIND",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1304,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SerializationMonkeyvarkind",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1305,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ExpBoth",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1306,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetSecondOffendingNumber",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1307,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "wParamFlagsremoveDomainUnload",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1308,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ParameterModifierRequestingAssembly",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1309,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AddAttributeBackup",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1310,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DISPPARAMSIsGenericMethodDefinition",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1311,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "MuiResourceIdLookupMapEntryNotInProgress",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1312,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "PublisherIdentityPermissionData",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1313,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SerializationNamegetReturnType",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1314,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "RemoveAccessRuleSpecificLeftToRightIsolate",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1315,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "NumberFormatInfoParseConfigFile",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1316,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "VARKINDUnionTypes",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1317,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ApplicationBaseValueSetShadowCopyPath",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1318,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AccountControllersSidsetExtraInfo",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1319,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ToBaseTransformLeaseManagerPollTime",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1320,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CMSFILEHASHALGORITHMGetPInvokeMap",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1321,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getPreviousValueCommandLine",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1322,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IssuerURL",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1323,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AddOnLogMessageIChannelSender",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1324,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DictionaryNodeAssemblyDelaySignAttribute",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1325,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "TooManyArgsInvalidCultureId",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1326,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getIsNestedAssemblyMidpointRounding",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1327,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "WINFILEATTRIBUTEDATATraceLoggingEventTypes",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1328,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CryptoKeyRightsCheckValueCreatePermission",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1329,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "BleMTAThreadAttribute",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1330,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SqrtSiteMembershipCondition",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1331,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "setReturnXmlElementNameUnsolicitedInput",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1332,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "UNICODESTRINGMethodImplementationFlags",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1333,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AssemblyFormatGetRealProxy",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1334,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "StreamWriterUCOMIPersistFile",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1335,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "FireIGetProxyTarget",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1336,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ErrorMuiResourceTypeIdIntIntegerIdsSize",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1337,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getDependentOSDatagetCurrentSize",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1338,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "addDesignerNamespaceResolveGetToken",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1339,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GInheritedObjectType",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1340,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getXCertificatesetAssemblyEvidence",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1341,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getAssemblyEvidenceId",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1342,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getRemovablegetShadowCopyDirectories",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1343,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetMaxByteCountAccess",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1344,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "HasThisNumOverflow",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1345,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getApplicationIdentitygetFinalStringMapped",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1346,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ClaimsPrincipalSelectorCreateAttributeCallback",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1347,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CompilerMarshalOverrideBuiltinDomainSid",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1348,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "HashNameSetCompressedStack",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1349,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SoapAnyUrireserved",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1350,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "TRACEPROVIDERINSTANCEINFOAccountDomainSid",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1351,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "PhonegetHasShutdownStarted",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1352,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CloneCombine",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1353,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ReadAllBytesListToVectorAdapter",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1354,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ConcurrentBagTryTakeStealsArglist",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1355,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "setNewLinesetUnrestricted",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1356,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getIsContainergetIsInherited",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1357,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "BuiltInPermissionFlagGetPermission",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1358,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ForaddModuleResolve",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1359,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ReturnCMSSECTIONIDEVENTTAGSECTION",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1360,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ReleaseComObjectSetShadowCopyFiles",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1361,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ThreadPoolEnqueueWorkObjectUrlIdentityPermissionAttribute",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1362,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "TypeContainingContractsFileInfo",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1363,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "setCursorLeftgetIsNetFxLegacySecurityPolicy",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1364,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "grfModeExplicitLayout",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1365,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetSourceStartEndgetCreationOptions",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1366,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "EndChildrenCachedData",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1367,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ClassILAssembly",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1368,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ISponsorHasClaims",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1369,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "RIPEMDSoapTime",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1370,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "StringParserCryptAcquireContextFlags",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1371,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetLineNumberThisOrganizationSid",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1372,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ChannelDatagetCultureInfo",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1373,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "LeaseTimeaction",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1374,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "KerbSmartCardUnlockLogonSetImplementationFlags",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1375,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getNativeDigitsGetOtherMethods",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1376,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getAutoFlushCausalityTracer",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1377,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DateMappingToUpper",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1378,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetApplicationManifestBytesSleep",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1379,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "setLeaseManagerPollTimeDependentOSMetadataEntryFieldId",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1380,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getReturnParameterREQUIRESNEW",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1381,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ResolveNamespaceXMLLang",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1382,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "InvalidOperationNoValueLIBFLAGFHASDISKIMAGE",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1383,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ArrayListDebugViewInternalFE",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1384,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "BufferWidthToBaseCharArray",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1385,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "FullTrustListAssembliesInGacCheckSubTreePermission",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1386,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "sUseRandomizedStringHashinggetInvalidCultureId",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1387,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ParseCombiningCharactersgetSourceException",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1388,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DependentOSMetadataDescriptionInProcessHandler",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1389,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "RemEventSourceIndex",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1390,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "QueryChangeIDNormal",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1391,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ReadFromUnderlyingStreamAsyncdExactBinding",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1392,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "removeReflectionOnlyNamespaceResolveIDispatchConstantAttribute",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1393,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "MaxPrimeArrayLengthNestedAssembly",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1394,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CopyToGetModule",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1395,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "MetadataSectionCompatibleFrameworksDataBinaryArrayTypeEnum",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1396,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "AssemblyAttributesGoHereSMNodeKeyValueCollection",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1397,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "LaunchMediaSelectKeyValuePair",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1398,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ICategoryMembershipEntryGetFault",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1399,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "LookForMyCallerFirst",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1400,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CancellationPendinggetContextProperties",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1401,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "EncodingUCOMIConnectionPointContainer",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1402,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CanBeCanceledgetNativeName",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1403,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "MemberJAPANESELUNISOLAR",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1404,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "RegistryKeyAsyncResult",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1405,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ResourceManagerCultureNotFoundInConfigFileAllowPartiallyTrustedCallersAttribute",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1406,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ReleaseAllResourcesFrameworkEventSource",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1407,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ExtensibleClassFactoryAttention",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1408,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getDaylightTransitionStartgetDateTime",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1409,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CommentProgramFilesX",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1410,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IsPreAllocatedDefaultIsLong",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1411,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "MainAssemblyIThreadPoolWorkItem",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1412,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IAssemblyReferenceEntryMulticastNotSupportedException",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1413,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CanceledAtImplied",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1414,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getWaitHandleMinBinaryLength",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1415,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DefineInitializedDatagetHashName",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1416,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "EvidenceEnumeratorRegular",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1417,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "LabelClientContextTerminatorSink",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1418,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IEquatableFriday",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1419,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "setTextgetIdentityObject",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1420,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "VerificationExceptionBinary",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1421,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getDestinationgetMonth",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1422,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "InvariantUnknown",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1423,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getAssemblyNameTaskScheduler",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1424,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "RunningFirstTimeResolveAsmEvent",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1425,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "PropertyAnalysisMethodCall",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1426,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "FullTrustZoneMyComputerGetEvent",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1427,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "fullPathGetInspectableArray",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1428,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "HexImageFileMachine",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1429,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DependentOSMetadataMajorVersionUnregisterTrackingHandler",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1430,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "EventSectionGetModules",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1431,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ProcessorArchitectureIAOSX",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1432,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IMuiResourceMapEntrywTypeFlags",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1433,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GroupsgetLevel",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1434,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getHasShutdownStartedRegisteredHandlers",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1435,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetKeyAlgorithmParametersAccessAllowedObject",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1436,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "setWindowWidthopOnesComplement",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1437,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "FileWritableTypeFunctorComparer",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1438,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ITypeInfoConvOvfU",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1439,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "TryDequeueSTORECATEGORY",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1440,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ArgumentOutOfRangeBiggerThanCollectiongetIsTypeRef",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1441,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IsCanceledGetApartmentState",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1442,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "FReplaceableGetUnmanagedType",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1443,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "cbSizeTypeLimitingDeserializationBinder",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1444,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getKeyNameStaticIndexRangePartitionForIList",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1445,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "arrayAppendData",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1446,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "BaseAddressFilePathGetCurrentDirectory",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1447,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ErrorWrapperKeyNumber",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1448,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DayNamesSetEntryPoint",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1449,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SerializationInvalidOnDeserStandard",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1450,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SoapDateAbbreviatedMonthGenitiveNames",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1451,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CltgetAllowOnlyFipsAlgorithms",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1452,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getIsBrowserDisplayLongRunning",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1453,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "MacCodePageStackBuilderSink",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1454,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "WriteBytesetTypeFormat",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1455,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CMSASSEMBLYREFERENCEFLAGVISIBLEHasIdentities",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1456,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getIsVerifiedAttention",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1457,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SecureStringToCoTaskMemUnicodeCMSHASHTRANSFORMIDENTITY",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1458,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "EventCacheKeyNewobj",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1459,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetViewUnstarted",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1460,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CMSFILEWRITABLETYPENOTWRITABLEConcurrentQueue",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1461,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ConditionStringNameCache",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1462,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IReflectgetLocalVariables",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1463,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SymLanguageVendorcbSize",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1464,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetServerContextSinkEnumIntTypeInfo",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1465,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SetLastWriteTimeUtcCheckExecutionRights",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1466,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CCMkeysMaxSize",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1467,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "MetadataSectionResourceTypeManifestResourcesDependencyReadOnlyDictionaryKeyCollection",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1468,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetNextChargetAsError",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1469,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "HelpLinkChannelData",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1470,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CounterOwnerThreadID",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1471,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SynchronizationsetHostContext",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1472,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetDecodergetIdentity",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1473,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "NOTSUPPORTEDgetFallback",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1474,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "matchIEnumReferenceIdentity",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1475,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ListDecimal",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1476,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SoapHexBinarygetCheckId",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1477,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "NoManglesetFormat",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1478,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getPayloadCalendarData",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1479,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "LocalizedResourcesCast",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1480,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "setFullTypeNamegetCertificate",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1481,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DownArrowCreateInstance",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1482,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CLRSurrogateEntryInvalidComObjectException",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1483,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "UrlMembershipConditiongetWindows",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1484,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getDaysFileIOAccess",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1485,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ITrackingHandlerIEnumSTOREASSEMBLYINSTALLATIONREFERENCE",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1486,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "EntryPointEntryFieldIdRuntimeFieldInfo",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1487,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getOriginalExceptionAnyScheme",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1488,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SafeArrayTypeMismatchExceptionBadImageFormatException",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1489,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "APPXFLAGSAPPXMASKBindToStorage",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1490,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "EnableComEventsSink",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1491,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "FPreDeclIdIsNullOrEmpty",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1492,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ExactPropertyBindingsourceBytesToCopy",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1493,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "CMSASSEMBLYDEPLOYMENTFLAGMAPFILEEXTENSIONSSetUserEntryPoint",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1494,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SegmentSeparatorConfigurationBytesValue",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1495,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "EventLevelASMCACHE",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1496,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "MapNameToOIDUnsafeOnCompleted",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1497,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "InvalidHebrewNumberExecutionEngineException",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1498,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IsolatedStorageScopeDefaultCategory",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1499,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ForkJoinOperationTypeLocalApplicationData",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1500,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "KoreanLunisolarCalendarGetAttributes",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1501,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "InitblkMinor",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1502,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "InternalParseTypeEIsBitProcess",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1503,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "VARFLAGFHIDDENFreeNativeOverlapped",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1504,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getURIInvalidOperationEnumFailedVersion",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1505,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "LoadContextsetCurrentCulture",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1506,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "setKeyContainerNameOpenBaseKey",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1507,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ExecuteSynchronouslyChar",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1508,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GREGORIANMEFRENCHReleaseThreadCache",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1509,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetFileColumnNumberaddUnobservedTaskException",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1510,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ActivityControlCompacting",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1511,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "DriveFormatHashtable",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1512,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetTextElementTriggersActivityTracking",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1513,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "IsSubsetOfPathDiscoverygetCurrentPrincipal",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1514,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "PermissionSetEntryModel",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1515,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ThrowOnUnmappableCharMasksetEndInvokeCalled",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1516,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "UnlockRegionsetLastAccessTime",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1517,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "PurgeAccessControlDelegateEntry",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1518,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "TrimStartHasVarArgs",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1519,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "MergeLogicIDeploymentMetadataEntry",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1520,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "getProviderTypesetNegativeSign",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1521,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "SetValueDirectgetRuntimeVersion",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1522,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "GetIUnknownForObjectsetInitializationFlags",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1523,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "ReflectionOnlyLoadgetCompletion",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1524,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 272,
+   "TypeName": "RegisterObjectCreationCallbackMonthGenitiveNames",
+   "TypeNamespace": "",
+   "Extends": 785,
+   "FieldList": 1525,
+   "MethodList": 2536
+  },
+  {
+   "Flags": 0,
+   "TypeName": "EnableEventsFOleAutomation",
+   "TypeNamespace": "",
+   "Extends": 57,
+   "FieldList": 1526,
+   "MethodList": 2536
+  }
+ ]
+}
